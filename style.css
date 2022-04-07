@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-wrapper {
+  padding: 15px 80px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #e7c0a9;
+}
+
+.nav-logo {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.menu-items li {
+  list-style-type: none;
+  padding: 0px 30px;
+  font-size: 17px;
+}
+
+.menu-items li:hover {
+  color: white;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
